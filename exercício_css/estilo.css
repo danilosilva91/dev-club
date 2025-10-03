@@ -1,0 +1,23 @@
+.bloco_1 {
+    display: inline-block;
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    cursor:pointer;
+    text-align: center ;
+    background-color: red;
+    
+}
+
+.bloco_1:hover {
+    background-color: black;
+}
+
+.bloco_2 {
+    background-color: yellow;
+}
+
+.bloco_3 {
+    background-color: green;
+}
+
