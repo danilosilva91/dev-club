@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.menu {
+    color: #17233D;
+
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sing-up {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+
+img {
+
+    margin: 45px 0 0 123px;
+    width: 533.834px;
+    height: 466.9px;
+    flex-shrink: 0;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+h1 {
+
+    color: #161A49;
+    font-family: Poppins;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    /* 132.258% */
+    letter-spacing: 0.596px;
+
+}
+
+p {
+    color: #4B505A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    
+}
+
+#button-learn-more {
+    color: #6FBF44;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
