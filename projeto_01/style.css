@@ -10,6 +10,11 @@
 header {
     margin-top: 47px;
     margin-left: 42px;
+
+}
+
+nav {
+    display: inline-block;
 }
 
 .menu {
@@ -50,11 +55,12 @@ img {
     display: inline-block;
 }
 
-section{
+section {
     display: inline-block;
     margin-left: 85px;
     width: 493px;
 }
+
 h1 {
 
     color: #161A49;
@@ -78,7 +84,7 @@ p {
     letter-spacing: 0.5px;
     margin-top: 47px;
     margin-bottom: 55px;
-    
+
 }
 
 #button-learn-more {
@@ -92,4 +98,48 @@ p {
     cursor: pointer;
     background-color: transparent;
     border: none;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+
+    .button-sing-up {
+        position: relative;
+        left: 180px;
+    }
+
+    #button-learn-more {
+        position: relative;
+        left: 180px;
+        margin-bottom: 25px;
+    }
+    img {
+        width: 90%;
+        height: auto;
+        margin-left: 50px;
+        padding: 0 20px;
+    }
+
+    section {
+        margin-left: 30px;
+        width: 350px;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 52px;
+        width:80%;
+    }
+
+    p {
+        width: 70%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
 }

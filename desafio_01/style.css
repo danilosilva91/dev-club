@@ -24,7 +24,7 @@ h1 {
     color: #515151;
 }
 
-h2{
+h2 {
     font-weight: 508;
     font-size: 58px;
     line-height: 71px;
@@ -85,3 +85,51 @@ p {
 
 }
 
+@media screen and (max-width: 900px) {
+    .logo-img {
+        margin-top: 100px;
+        margin-left: 0;
+        width: 90%;
+        height: auto;
+
+
+    }
+
+    header, p {
+        display: none;
+    }
+
+    section {
+        margin: 0;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 40px 0;
+    }
+
+    .button-main {
+        width: 80%;
+        height: 64px;
+        font-size: 24px;
+        display: block;
+        margin: 0 auto 40px auto;
+        border: none;
+
+    }
+
+}
